@@ -5,10 +5,11 @@
 # vsss-vision-client
 
 ## Introduction
-The vsss-vision-client is an log tool created to **IEEE Very Small Size Soccer League**, aiming the possibility to receive vision multicast packages and shows them in a web ui.
+The vsss-vision-client is an tool created to **IEEE Very Small Size Soccer League**, aiming the possibility to receive vision multicast packages and shows them in a web ui.
+This tool was built on the [work](https://github.com/RoboCup-SSL/ssl-vision-client) done for the [Small Size League](https://github.com/RoboCup-SSL) community.
 
 ## Requirements
- * Go >= 1.16
+ * Go >= 1.14
  * Node >= 10
  * Yarn
 
