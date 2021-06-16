@@ -12,7 +12,7 @@ import (
 )
 
 var address = flag.String("address", ":8082", "The address on which the UI and API is served, default: :8082")
-var visionAddress = flag.String("visionAddress", "224.0.0.1:10002", "The multicast address of ssl-vision, default: 224.0.0.1:10002")
+var visionAddress = flag.String("visionAddress", "224.0.0.1:10002", "The multicast address of vsss-vision, default: 224.0.0.1:10002")
 var skipInterfaces = flag.String("skipInterfaces", "", "Comma separated list of interface names to ignore when receiving multicast packets")
 var verbose = flag.Bool("verbose", false, "Verbose output")
 
